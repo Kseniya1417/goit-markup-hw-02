@@ -1,0 +1,203 @@
+body {
+font-family: 'Roboto', sans-serif;
+color: #212121
+}
+/*---------LOGO---------*/
+.header-nav .header-logo {
+    font-family: 'Raleway' sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        }
+.header-nav .span-logo {
+    font-family: 'Raleway' sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    color: #000000;
+}       
+/*---------LINK---------*/
+.header-list, .header-item, .header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.list {
+    list-style: none;
+}
+.header-link:hover,
+.header-link:focus{
+    color: #2196F3;
+}
+/*---------CONTACTS---------*/
+.contacts-list{
+    list-style: none
+}
+.contacts-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+    color: #2196F3
+}
+.contacts-post{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contacts-post:hover,
+.contacts-post:focus {
+    color: #2196F3
+}
+
+/*---------HERO---------*/
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.hero-btn .btn {
+    font-family: inherit
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF
+}
+/*---------SECTION-FEATURES----------*/
+.section-features {}
+
+.section-features-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+.section-features-list {
+    list-style: none
+}
+
+.section-features-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/*---------SECTION-WORK-TITLE---------*/
+.section-work-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.section-team {}
+
+.section-team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.section-team-list {}
+
+.section-team-item {
+    list-style: none
+}
+
+.section-team-worker {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+
+.footer-span-logo {
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.footer-adress {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.footer-list {}
+
+.footer-item {
+    list-style: none
+}
+
+.footer-post {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+/*color синій logo 2196F3*/
+/*color FFFFFF*/
+/*color синій 2196F3*/
+/*color чорний 2F303A*/
+
