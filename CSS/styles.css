@@ -1,20 +1,26 @@
+:root{
+    --first-color: #212121;
+    --second-color: #757575;
+    --third-color: #2196F3;
+}
 body {
 font-family: 'Roboto', sans-serif;
-color: #212121
+color: var(--first-color);
+}
+.btn{
+    cursor: pointer;
 }
 /*---------LOGO---------*/
 .header-nav .header-logo {
     font-family: 'Raleway' sans-serif;
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--third-color);
         }
 .header-nav .span-logo {
     font-family: 'Raleway' sans-serif;
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -30,42 +36,42 @@ color: #212121
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--first-color);
 }
 .list {
     list-style: none;
 }
 .header-link:hover,
 .header-link:focus{
-    color: #2196F3;
+    color: var(--third-color);
 }
 /*---------CONTACTS---------*/
 .contacts-list{
-    list-style: none
+    list-style: none;
 }
 .contacts-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #757575;
+    color: var(--second-color);
 }
 .contacts-tel:hover,
 .contacts-tel:focus {
-    color: #2196F3
+    color: var(--third-color);
 }
 .contacts-post{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color);
 }
 .contacts-post:hover,
 .contacts-post:focus {
-    color: #2196F3
+    color: var(--third-color);
 }
 /*---------HERO---------*/
-.section-features-hidden{
+.visually-hidden{
         position: absolute;
         width: 1px;
         height: 1px;
@@ -90,7 +96,7 @@ color: #212121
         color: #FFFFFF;
 }
 .hero-btn .btn {
-    font-family: inherit
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -103,7 +109,7 @@ color: #212121
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #2196F3;
-    color:#FFFFFF
+    color:#FFFFFF;
 }
 /*---------SECTION-FEATURES----------*/
 .section-features-title {
@@ -112,26 +118,25 @@ color: #212121
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #212121;
+        color: var(--first-color);
 }
 .section-features-list {
-    list-style: none
+    list-style: none;
 }
 .section-features-text {
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--second-color);
 }
-/*---------SECTION-WORK-TITLE---------*/
+/*---------SECTION-WORK---------*/
 .section-work-title{
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--first-color);
 }
 .section-team-title {
     font-weight: 700;
@@ -139,10 +144,10 @@ color: #212121
         line-height: 1.16%;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--first-color);
 }
 .section-team-item {
-    list-style: none
+    list-style: none;
 }
 .section-team-worker {
     font-weight: 500;
@@ -150,15 +155,14 @@ color: #212121
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--first-color);
     }
 .section-team-text{
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--second-color);
 }
 .footer {
     background-color: #2F303A;
@@ -168,7 +172,7 @@ color: #212121
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--third-color);
 }
 .footer-span-logo {
     font-weight: 700;
@@ -181,42 +185,27 @@ color: #212121
        text-decoration: none;
 }
 .footer-adres-text {
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
 .footer-item {
-    list-style: none
+    list-style: none;
 }
 .footer-post {
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
 /*---------PORTFOLIO---------*/
-.portfolio-section-hidden {
-            position: absolute;
-                width: 1px;
-                height: 1px;
-                margin: -1px;
-                border: 0;
-                padding: 0;
-                white-space: nowrap;
-                clip-path: inset(100%);
-                clip: rect(0 0 0 0);
-                overflow: hidden;
-}
 .portfolio-section-list {
     list-style: none;
 }
@@ -226,7 +215,7 @@ color: #212121
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--first-color);
 }
 .portfolio-section-item-btn:hover,
 .portfolio-section-item-btn:focus {
@@ -236,19 +225,30 @@ color: #212121
 .section-item{
     list-style: none;
 }
+.visually-hidden-portfolio{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
 .section-title{
     font-weight: 700;
         font-size: 18px;
         line-height: 2.0;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--first-color);
 }
 .section-text{
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--second-color);
 }
 /*color синій logo 2196F3*/
 /*color FFFFFF*/
