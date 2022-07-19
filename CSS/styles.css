@@ -2,17 +2,36 @@
     --first-color: #212121;
     --second-color: #757575;
     --third-color: #2196F3;
-}
+    --main-background-color:#E5E5E5;  
+    --main-text-color: #FFFFFF;
+    --header-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --logo-color: #000000;
+    --section-team-baskground-color:#F5F4FA;
+    --portfolio-img-background-color: #EEEEEE;
+    --footer-background-color: #2F303A;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --main-btn-text-color:var(--main-text-color);
+    --main-btn-background-color:var(--third-color);
+    --secondary-btn-text-color:var(--first-color)
+ }
 body {
 font-family: 'Roboto', sans-serif;
 color: var(--first-color);
+background-color: var(--main-background-color);
 }
 .btn{
     cursor: pointer;
 }
+.no-decoration-link {
+    text-decoration: none;
+}
 /*---------LOGO---------*/
+.header{
+    background-color: var(--header-background-color);
+}
 .header-nav .header-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -20,16 +39,13 @@ color: var(--first-color);
         color: var(--third-color);
         }
 .header-nav .span-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--logo-color);
 }       
-.portfolio-link{
-    text-decoration: none;
-}
 /*---------LINK---------*/
 .header-list, .header-item, .header-link{
     font-weight: 500;
@@ -84,7 +100,7 @@ color: var(--first-color);
         overflow: hidden;
     }
 .hero{
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 .hero-title{
     font-weight: 900;
@@ -93,26 +109,26 @@ color: var(--first-color);
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: var(--main-text-color);
 }
-.hero-btn .btn {
+.hero-btn{
     font-family: inherit;
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-btn-text-color);
+    background-color: var(--main-btn-background-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #2196F3;
-    color:#FFFFFF;
+    background-color: var(--main-btn-background-color);
+    color: var(--main-btn-text-color);
 }
-/*---------SECTION-FEATURES----------*/
-.section-features-title {
+/*---------FEATURES----------*/
+.features-title {
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -120,10 +136,10 @@ color: var(--first-color);
         text-transform: uppercase;
         color: var(--first-color);
 }
-.section-features-list {
+.features-list {
     list-style: none;
 }
-.section-features-text {
+.features-text {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -141,33 +157,36 @@ color: var(--first-color);
 .section-team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.16%;
+        line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--first-color);
 }
 .section-team-item {
     list-style: none;
+    background-color: var(--header-background-color);
+}
+.section-team{
+    background-color: var(--section-team-baskground-color)
 }
 .section-team-worker {
     font-weight: 500;
-        font-size: 16px;
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--first-color);
     }
 .section-team-text{
-        font-size: 16px;
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--second-color);
 }
 .footer {
-    background-color: #2F303A;
+    background-color: var(--footer-background-color);
 }
 .footer-logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -177,53 +196,61 @@ color: var(--first-color);
 .footer-span-logo {
     font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
-}
-.footer-link{
-       text-decoration: none;
+        color: var(--main-text-color);
 }
 .footer-adres-text {
+    font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: var(--main-text-color);
 }
 .footer-item {
     list-style: none;
 }
 .footer-post {
+    font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--footer-link-color);
 }
 .footer-tel {
+    font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--footer-link-color);
 }
 /*---------PORTFOLIO---------*/
 .portfolio-section-list {
     list-style: none;
 }
 .portfolio-section-item {
+    font-family: inherit;
     font-weight: 500;
-        font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--first-color);
+        color: var(--secondary-btn-text-color);
+}
+.portfolio-section-item-btn{
+    font-weight: 500;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
 }
 .portfolio-section-item-btn:hover,
 .portfolio-section-item-btn:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--main-btn-text-color);
+    background-color: var(--main-btn-background-color);
 }
 .section-item{
     list-style: none;
+    background-color: var(--portfolio-img-background-color);
 }
 .visually-hidden-portfolio{
     position: absolute;
@@ -245,7 +272,6 @@ color: var(--first-color);
         color: var(--first-color);
 }
 .section-text{
-        font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
         color: var(--second-color);
